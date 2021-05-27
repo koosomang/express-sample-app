@@ -10,6 +10,6 @@ spec:
     termination: edge
   to:
     kind: Service
-    name: somang-koo-pipeline-from-scratch-pipeline
+    name: somang-koo-pipeline-from-scratch
     weight: 100
   wildcardPolicy: None

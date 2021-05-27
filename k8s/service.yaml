@@ -5,7 +5,7 @@ metadata:
     app: somang-koo-pipeline-from-scratch-pipeline
     app.kubernetes.io/instance: somang-koo-pipeline-from-scratch-pipeline
     app.kubernetes.io/name: somang-koo-pipeline-from-scratch-pipeline
-  name: somang-koo-pipeline-from-scratch-pipeline
+  name: somang-koo-pipeline-from-scratch
 spec:
   ports:
     - name: http

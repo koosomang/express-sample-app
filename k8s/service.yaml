@@ -2,9 +2,9 @@ apiVersion: v1
 kind: Service
 metadata:
   labels:
-    app: somang-koo-pipeline-from-scratch-pipeline
-    app.kubernetes.io/instance: somang-koo-pipeline-from-scratch-pipeline
-    app.kubernetes.io/name: somang-koo-pipeline-from-scratch-pipeline
+    app: somang-koo-pipeline-from-scratch
+    app.kubernetes.io/instance: somang-koo-pipeline-from-scratch
+    app.kubernetes.io/name: somang-koo-pipeline-from-scratch
   name: somang-koo-pipeline-from-scratch
 spec:
   ports:
@@ -13,7 +13,7 @@ spec:
       protocol: TCP
       targetPort: 3000
   selector:
-    app.kubernetes.io/instance: somang-koo-pipeline-from-scratch-pipeline
-    app.kubernetes.io/name: somang-koo-pipeline-from-scratch-pipeline
+    app.kubernetes.io/instance: somang-koo-pipeline-from-scratch
+    app.kubernetes.io/name: somang-koo-pipeline-from-scratch
   sessionAffinity: None
   type: ClusterIP

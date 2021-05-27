@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   annotations:
     app.openshift.io/vcs-ref: f7580aa1eb6f7176705176e201ecff4de93edafb
-    app.openshift.io/vcs-uri: https://github.com/koosomang/express-sample-app
+    app.openshift.io/vcs-uri: https://github.com/upslopeio/express-sample-app
   labels:
     app: somang-koo-pipeline-from-scratch
     app.kubernetes.io/instance: somang-koo-pipeline-from-scratch
